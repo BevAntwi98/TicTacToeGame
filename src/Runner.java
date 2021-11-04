@@ -18,9 +18,11 @@ public class Runner {
         // get input from computer then store it and check winner
         // if a position is taken, alert user to enter another number
         // continue game until game ends
+
+        
         char[][] gameBoard = { { ' ', '|', ' ', '|', ' ' }, { '-', '+', '-', '+', '-' }, { ' ', '|', ' ', '|', ' ' },
                 { '-', '+', '-', '+', '-' }, { ' ', '|', ' ', '|', ' ' } };
-        printBoard(gameBoard);
+        printGameBoard.printBoard(gameBoard);
 
         // loops until game is over
         while (true) {
@@ -54,27 +56,15 @@ public class Runner {
                 computerPlayer = random.nextInt(9) + 1;
             }
             playerPiece(gameBoard, computerPlayer, "computer");
-            printBoard(gameBoard);
+            printGameBoard.printBoard(gameBoard);
             result = checkWinner();
 
             if (result.length() > 0) {
-
                 System.out.println(result);
-                printBoard(gameBoard);
+                printGameBoard.printBoard(gameBoard);
                 break;
             }
 
-        }
-    }
-
-    public static void printBoard(char[][] gameBoard) {
-
-        // create 2 loops
-        for (char[] row : gameBoard) {
-            for (char c : row) {
-                System.out.print(c);
-            }
-            System.out.println();
         }
     }
 

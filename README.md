@@ -1,6 +1,10 @@
-## Getting Started
+## Mini Java Project
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+With all the free time I have I figured I would refresh my java skills and follow a java TicTacToe Game tutorial :)
+
+s/o to Alex Lee for the video on youtube! Learning is best by doing 
+
+Link to the video "https://www.youtube.com/watch?v=gQb3dE-y1S4"
 
 ## Folder Structure
 
@@ -10,8 +14,6 @@ The workspace contains two folders by default, where:
 - `lib`: the folder to maintain dependencies
 
 Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
 ## Dependency Management
 
