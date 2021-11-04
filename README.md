@@ -1,10 +1,10 @@
 ## Mini Java Project
 
-With all the free time I have I figured I would refresh my java skills and follow a java TicTacToe Game tutorial :)
+With all the free time I have I figured I would refresh my java skills and follow a TicTacToe Game tutorial :)
 
-s/o to Alex Lee for the video on youtube! Learning is best by doing 
+S/O to Alex Lee for the video on youtube! Learning is best by doing 
 
-Link to the video "https://www.youtube.com/watch?v=gQb3dE-y1S4"
+Link to the video: "https://www.youtube.com/watch?v=gQb3dE-y1S4"
 
 ## Folder Structure
 
